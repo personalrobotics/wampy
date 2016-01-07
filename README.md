@@ -5,6 +5,8 @@ WAMpy is a python library for interacting with a simulated model of the Barrett 
 WAMpy extends the robot-agnostic helper library [PRpy](http://github.com/personalrobotics/prpy) by adding robot-specific functionality for the the WAM robot.
 It is based on similiar robot-specific packages like [HERBpy](http://github.com/personalrobotics/herbpy) and [PR2py](http://github.com/personalrobotics/pr2py).
 
+The models of the WAM arm and Segway come from the OpenRAVE package, with some changes to link names to make them compatible with code in the prpy/base classes.
+
 This software was created by the [Personal Robotics Lab] (http://personalrobotics.ri.cmu.edu) at [Carnegie Mellon University] (http://www.cmu.edu). 
 
 
