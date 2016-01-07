@@ -1,4 +1,4 @@
-# WAMpy #
+## WAMpy ##
 ======
 
 WAMpy is a python library for interacting with a simulated model of the Barrett WAM manipulator using OpenRAVE.
@@ -8,7 +8,7 @@ It is based on similiar robot-specific packages like [HERBpy](https://github.com
 This software was created by the [Personal Robotics Lab] (https://personalrobotics.ri.cmu.edu) at [Carnegie Mellon University] (http://www.cmu.edu). 
 
 
-## Usage examples ##
+### Usage examples ###
 
 Load the Barrett WAM robot model and display it in Rviz viewer.  
 ```
