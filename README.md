@@ -15,6 +15,9 @@ Load the Barrett WAM robot model and display it in Rviz viewer.
 $ roscore
 $ rosrun wampy 01_WAM_arm.py
 ```
+![ex1_screenshot](http://raw.github.com/personalrobotics/wampy/master/screenshots/01_WAM_arm.png)
+
+.
 
 Initialize an environment with the Barrett WAM arm on a Segway base. 
 Grasp a Fuze drink bottle and lift it from the table.
@@ -23,6 +26,9 @@ This simulation tests the functionality of planning and grasping using object-sp
 $ roscore
 $ rosrun wampy 02_WAM_Segway_grasp_object.py
 ```
+![ex2_screenshot](http://raw.github.com/personalrobotics/wampy/master/screenshots/02_WAM_Segway_grasp_object.png)
+
+.
 
 Test the OpenRAVE physics engine. 
 The Segway base is set as a static link, so it doesn't fall over due to gravity.
@@ -31,4 +37,5 @@ The Barrett WAM arm should go limp because there is no joint controller configur
 $ roscore
 $ rosrun wampy 03_WAM_Segway_physics.py
 ```
+![ex3_screenshot](http://raw.github.com/personalrobotics/wampy/master/screenshots/03_WAM_Segway_physics.png)
 
