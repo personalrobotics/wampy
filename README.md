@@ -1,5 +1,5 @@
-## WAMpy ##
-======
+WAMpy
+=====
 
 WAMpy is a python library for interacting with a simulated model of the Barrett WAM manipulator using OpenRAVE.
 WAMpy extends the robot-agnostic helper library [PRpy](https://github.com/personalrobotics/prpy) by adding robot-specific functionality for the the WAM robot.
