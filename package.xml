@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>wampy</name>
+  <version>0.0.1</version>
+  <description>
+    Python library for interacting with a simulated Barrett WAM arm through OpenRAVE.
+  </description>
+  <url type="website">https://github.com/personalrobotics/wampy</url>
+  <url type="repository">https://github.com/personalrobotics/wampy.git</url>
+  <url type="bugtracker">https://github.com/personalrobotics/wampy/issues</url>
+  <maintainer email="dbworth@cmu.edu">David Butterworth</maintainer>
+  <author email="dbworth@cmu.edu">David Butterworth</author>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>python</depend>
+
+  <exec_depend>ipython</exec_depend>
+  <exec_depend>python-numpy</exec_depend>
+  <exec_depend>openrave</exec_depend>
+</package>

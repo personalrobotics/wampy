@@ -1,0 +1,1 @@
+from wam import initialize
